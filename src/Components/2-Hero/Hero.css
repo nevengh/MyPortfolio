@@ -1,0 +1,85 @@
+/*  ********************************
+    table of Contents
+    **********************************
+
+    1- left section
+    2-Right Section (animation)
+
+*/
+
+
+/* 
+    *****************
+    1- left section
+    ***************
+*/
+section.hero{
+margin-top: 3rem;
+}
+section.hero .left-section{
+    /* to take all th empty space */
+    flex-grow: 1;
+}
+section.hero .avatar
+{
+    width: 88px;
+    border-radius: 50%;
+    border: 1px solid darkcyan;
+    padding:1px;
+    box-shadow: 2px 2px 40px whitesmoke inset;
+}
+section.hero .icon-verified 
+{
+    color: var(--blue);
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+section.hero .parent-avatar
+{
+    align-items: end;
+    gap: 0.6rem;
+}
+
+section.hero .title
+{
+    font-size: 2.85rem;
+    line-height: 3rem;
+    margin: 24px 0;
+    color: var(--title);
+}
+
+section.hero .sub-title
+{
+    color: var(--subtitle);
+    font-size: 0.9rem;
+    line-height: 1.65rem;
+    margin-bottom: 32px;
+}
+section.hero .all-icons
+{   font-size: 1.3rem;
+    gap: 1.5rem;
+    color: var(--subtitle);
+}
+section.hero .icon{
+    transition: 0.3s;
+}
+section.hero .icon:hover
+{
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: var(--icon-hover);
+    
+}
+
+
+/* 
+    ***********************
+    1- right section (animation)
+    *****************************
+*/
+
+.animation{
+    width: 100%;
+    translate: 100px 55px;
+}
